@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --button: #ff0000;
+  --main-background: #c4c4c4;
+  --background: #e5e5e5;
+  --text: #000;
+  --footer: #000;
+  --text-description: #9c9696;
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+
+header {
+  padding-top: 3.9rem;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 6rem;
+}
+header ul {
+  display: flex;
+  gap: 9rem;
+}
+header ul a {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: var(--text);
+  text-transform: uppercase;
+}
+header .pesquisar input {
+  padding: 2rem;
+  background-color: #fff;
+  border: none;
+}
+header .pesquisar ::-moz-placeholder {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  color: var(--text-description);
+}
+header .pesquisar :-ms-input-placeholder {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  color: var(--text-description);
+}
+header .pesquisar ::placeholder {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  color: var(--text-description);
+}
+
+main {
+  display: flex;
+}
+main .infos-tenis {
+  max-width: 35.7rem;
+  max-height: 53.3rem;
+  padding: 10rem 7.2rem;
+}
+main .titulo-tenis {
+  font-size: 1.5rem;
+  font-weight: 700;
+  max-width: 35.7rem;
+  padding-bottom: 2.1rem;
+  color: var(--text);
+}
+main .descricao-tenis p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  width: 34.2rem;
+  height: 5.7rem;
+  color: var(--text-description);
+  padding-bottom: 2.1rem;
+}
+main span {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--text);
+}
+main button {
+  margin-top: 3rem;
+  padding: 3.3rem 7rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--button);
+  border: none;
+}
+main .tenis-destaque {
+  padding-inline: 15.7rem;
+  padding-top: 8.8rem;
+  padding-bottom: 10px;
+}
+main ul {
+  display: flex;
+  align-items: center;
+  margin-inline: 3.8rem;
+  gap: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+  padding-inline: 7.7rem;
+}
+footer ul li {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  text-transform: uppercase;
+}
+footer .explorer-mais {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 5rem;
+}/*# sourceMappingURL=style.css.map */
